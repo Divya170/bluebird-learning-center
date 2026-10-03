@@ -1,0 +1,36 @@
+/* Base styles from the Bluebird Learning Center design */
+html,body{margin:0;padding:0;background:#FFF9F0;color:#17324D;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#1769AA;text-decoration-thickness:1.5px;text-underline-offset:3px}
+a:hover{color:#125A93}
+button{font-family:inherit;cursor:pointer;touch-action:manipulation}
+input,select,textarea{font-family:inherit}
+:focus-visible{outline:3px solid #1769AA;outline-offset:3px;border-radius:8px}
+img{display:block;max-width:100%}
+@media (prefers-reduced-motion: reduce){*{transition-duration:.01ms !important;animation-duration:.01ms !important}}
+
+/* Interaction states (generated from style-hover / style-focus) */
+.fc-f63353:focus{left:12px !important}
+.hv-a14951:hover{background:rgba(23,50,77,0.06) !important}
+.hv-fc6147:hover{background:#125A93 !important;transform:translateY(-1px) !important}
+.hv-7432f9:hover{color:#9CCBF0 !important}
+.hv-0b0160:hover{background:#fff !important;border-color:#17324D !important}
+.hv-f74989:hover{transform:scale(1.04) !important}
+.hv-e1dfb4:hover{transform:translateY(-1px) !important}
+.hv-882cb5:hover{transform:translateY(-2px) !important}
+.hv-5e647a:hover{background:#1769AA !important;color:#fff !important}
+.hv-6e69db:hover{gap:12px !important}
+.hv-a0f31a:hover{background:rgba(221,239,252,0.45) !important}
+.hv-99018e:hover{border-color:#17324D !important}
+.hv-9190d4:hover{background:#C8E3F8 !important}
+.hv-b1ef8a:hover{background:#F3F8FD !important}
+.hv-466121:hover{background:#125A93 !important}
+.hv-2eb3e2:hover{border-color:#1769AA !important;color:#1769AA !important}
+.hv-b35ae7:hover{transform:translateY(-2px) !important;box-shadow:0 12px 30px rgba(23,50,77,0.08) !important}
+.hv-d24b4a:hover{border-color:#1769AA !important}
+.hv-48490a:hover{background:#17324D !important;color:#fff !important}
+.hv-8a0eec:hover{background:#F1E9DC !important}
+.hv-tc:hover{border-color:#1769AA !important;background:#F4F9FE !important}
+/* admin buttons */
+.hv-bb-primary:hover{background:#0F5A94 !important}
+.hv-bb-secondary:hover{background:#F4F9FE !important}
